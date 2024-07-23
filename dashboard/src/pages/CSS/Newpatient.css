@@ -1,0 +1,148 @@
+.test-name {
+  /* Margin and width settings for the test name input container */
+  margin: 30px 20%;
+  width: 50%;
+
+  /* Padding and border-radius for a comfortable input area */
+  padding: 10px;
+  border-radius: 5px;
+
+  /* Background color for the input area */
+  background-color: #f2f2f2;
+
+  /* Flexbox settings to center the content */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.billing-section {
+  /* Margin and width settings for the billing section container */
+  margin: 10px 20%;
+  width: 50%;
+
+  /* Padding and border-radius for a comfortable display area */
+  padding: 10px;
+  border-radius: 5px;
+
+  /* Background color for the billing section */
+  background-color: #f2f2f2;
+}
+
+.Patient-Form {
+  /* Margin and width settings for the patient form container */
+  margin: 10px 20%;
+  width: 50%;
+
+  /* Padding and border-radius for a comfortable input area */
+  padding: 10px;
+  border-radius: 5px;
+
+  /* Background color for the patient form */
+  background-color: #f2f2f2;
+}
+
+.popup-overlay {
+  /* Fixed positioning to cover the entire screen */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  /* Semi-transparent background to overlay content */
+  background-color: rgba(0, 0, 0, 0.5);
+
+  /* Flexbox settings to center the popup content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* High z-index to ensure the popup appears above all content */
+  z-index: 9999;
+}
+
+.popup-content {
+  /* Background color and border-radius for the popup content */
+  background-color: #fff;
+  border-radius: 5px;
+
+  /* Padding for comfortable content spacing */
+  padding: 20px;
+
+  /* Max width and responsive width setting for the popup */
+  max-width: 400px;
+  width: 90%;
+
+  /* Relative positioning for internal elements like the close button */
+  position: relative;
+}
+
+.popup-header {
+  /* Flexbox settings to space the header content */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* Margin-bottom for spacing below the header */
+  margin-bottom: 10px;
+}
+
+.close-btn {
+  /* Font settings for the close button */
+  font-size: 24px;
+  font-weight: bold;
+  color: #888;
+
+  /* Background and border settings for a clean button appearance */
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+  /* Cursor setting to indicate the button is clickable */
+  cursor: pointer;
+}
+
+.popup-body {
+  /* Max height and overflow settings for the popup content */
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.popup-footer {
+  /* Flexbox settings to align the footer content */
+  display: flex;
+  justify-content: flex-end;
+
+  /* Margin-top for spacing above the footer */
+  margin-top: 20px;
+}
+
+.popup-footer .btn {
+  /* Margin-left for spacing between buttons */
+  margin-left: 10px;
+}
+
+.test-name {
+  /* Flexbox settings to align items within the test name input container */
+  display: flex;
+  align-items: center;
+}
+
+.test-name input {
+  /* Flex-grow to allow the input to take up available space */
+  flex-grow: 1;
+
+  /* Margin-right for spacing between the input and the button */
+  margin-right: 10px;
+}
+
+.billing-section {
+  /* Margin-top for spacing above the billing section */
+  margin-top: 20px;
+}
+
+.Patient-Form {
+  /* Margin-top for spacing above the patient form */
+  margin-top: 20px;
+}
